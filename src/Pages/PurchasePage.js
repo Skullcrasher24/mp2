@@ -1,12 +1,14 @@
 import React from 'react'
+import Login from "../Component/Login/Login"
 import Navbar from '../Component/Navbar/Navbar'
-import PackageBuilderForm from '../Component/PackageBuilder/PackageBuilder';
+
+
 
 const PurchasePage = () => {
   return (
     <div>
         <Navbar />
-        <PackageBuilderForm />
+        <Login />
        </div>
   )
 }

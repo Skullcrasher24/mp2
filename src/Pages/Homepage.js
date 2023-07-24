@@ -7,6 +7,7 @@ import Service from "../Component/Services/Service";
 import ServicesOfferLogo from "../Component/ServicesOfferLogo/ServicesOfferLogo";
 import ServicesOfferBrochure1 from "../Component/ServiceOfferBrochure1/ServiceOfferBrochure1";
 import Portfolio from "../Component/Portfolio/Portfolio"
+import Login from "../Component/Login/Login"
 import Contact from "../Component/Contact/Contact"
 
 function Homepage() {
@@ -19,6 +20,7 @@ function Homepage() {
       <ServicesOfferLogo />
       <ServicesOfferBrochure1 />
       <Portfolio />
+      <Login />
       <Contact />
     </div>
   );
